@@ -25,3 +25,12 @@ This repository holds frozen evaluation criteria, raw outcome data, and independ
 ## Status
 
 Initial structure. Criteria and data to be added per evaluation round.
+
+## Experimental Bitcoin pilot 001
+
+See the [fixed criteria reference](criteria/BTC-PILOT-001.md),
+[seal-log entry](SEAL-LOG.md), [frozen packet](packets/BTC-PILOT-001-2026-11-01.zip)
+and [timestamp verification](timestamps/BTC-PILOT-001/VERIFY.md).
+The packet is assistant-prepared and independently timestamped. This repository
+entry does not establish predictive advantage, an immutable release or completed
+independent registration. Outcomes remain UNSCORED until resolved under frozen rules.
