@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "status": "VERIFIED_RFC3161_TIMESTAMP",
+  "provider": "FreeTSA",
+  "endpoint": "https://freetsa.org/tsr",
+  "packet_path": "packets/BTC-PILOT-001-2026-11-01.zip",
+  "packet_sha256": "ca65ba4ec2f30f3305dec477f2c5f462cb775e6dd5d4c0ae8b41f5824fd17e9e",
+  "query_path": "timestamps/BTC-PILOT-001/batch.tsq",
+  "query_sha256": "c4ddecb626fd0416aa07132dbaf9a34baa055bba9b933d7ab868d8ceb763a263",
+  "response_path": "timestamps/BTC-PILOT-001/batch.tsr",
+  "response_sha256": "0c175574f88934c9a83ce0d431a7778350550427e3e5136492d9dfaf14debe93",
+  "service_asserted_time_utc": "2026-11-01T12:24:34Z",
+  "request_started_at_utc": "2026-11-01T12:24:28.726343Z",
+  "response_received_at_utc": "2026-11-01T12:24:34.337051Z",
+  "certificate_file_sha256": {
+    "cacert.pem": "2151b61137ffa86bf664691ba67e7da0b19f98c758e3d228d5d8ebf27e044438",
+    "tsa.crt": "8bfb0305bb64e2571ca507552ef3245cb1c2fee8728e0ff8689225081ea13467"
+  },
+  "verification_checks": [
+    {
+      "check": "data",
+      "exit_code": 0,
+      "stdout": "Verification: OK\n",
+      "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/workspace/scratch/696be55a794c/pilot_work/agent8-wys-evidence/timestamps/BTC-PILOT-001/tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n"
+    },
+    {
+      "check": "queryfile",
+      "exit_code": 0,
+      "stdout": "Verification: OK\n",
+      "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/workspace/scratch/696be55a794c/pilot_work/agent8-wys-evidence/timestamps/BTC-PILOT-001/tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n"
+    }
+  ],
+  "trust_basis": "FreeTSA own CA retrieved through HTTPS; exact file hashes matched official website; not a universally pretrusted or qualified legal timestamp claim.",
+  "scope": "Independent service signature binds the exact packet hash to its asserted UTC time. Does not establish originality, accuracy, prior publication, prior predictive skill or OSF registration.",
+  "github_publication_completed": false,
+  "osf_registration_completed": false
+}
